@@ -13,7 +13,7 @@ Steps 3: Configure postgresql
 
 ```sql
     CREATE USER <username>  WITH PASSWORD '<password>';
-    CREATE DATABASE DB;
+    CREATE DATABASE <database name>;
     GRANT ALL ON SCHEMA public TO <username> ;
     ALTER DATABASE db OWNER TO <username>;
 
